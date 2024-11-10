@@ -1,0 +1,328 @@
+<!-- (c) Layout created by xxRebellious_Emmaxx (https://layouts.spacehey.com/layout?id=92143) -->
+
+<style>body:before{content:" ";height:100vh;width:100vw;display:block;position:fixed;top:0;left:0;z-index:100;background-image:url('https://i.ibb.co/R68CshW/ezgif-com-video-to-gif-converted.gif');background-size:cover;background-repeat:no-repeat;background-position:center;animation:yourAnimation 7s ease 0s 1 normal forwards;pointer-events:none}@keyframes yourAnimation{0.0%{opacity:1}75%{opacity:1}100%{opacity:0}}</style> 
+
+
+
+<!-- (c) Layout created by XxLie_AbilityxX (https://layouts.spacehey.com/layout?id=104802) -->
+
+<style>
+/* your starting style tag, which is how you start any profile layout or CSS generally */
+
+html{
+scrollbar-color:#4a235a black;
+}
+/* changes scrollbar color */
+
+
+.contact .heading{ 
+font-size:0; 
+}
+.contact .heading:before {
+    content: "talk 2 me!";
+    font-weight: bold;
+    font-size: 13px;
+    color:  white;
+}
+/* edits the text in ur add to friends section */
+
+
+.profile {
+color: white;
+border:0px none;
+font-family: "Courier New", monospace;
+font-size:12px;
+ }
+/* determines some base stuff. in order: */
+/* border 0px none specifies no border around the body of your profile */
+/* then you have font family and size which specifies which font */
+
+:root{
+ --dark-orange: white; 
+text-shadow: 1px 1px #8f00ff;
+}
+/* changes blurbs subheaders color (abt me, who id like to meet) */
+
+#music iframe {
+  display: none;
+}
+
+#profile:target ~ #music iframe {
+  display: block;
+}
+
+main {
+  background-color:black;
+  border:0px none;
+}
+/* the background color of your whole account, and border 0px for no border around your profile body */
+
+body {
+    background: url(https://i.pinimg.com/originals/50/32/80/5032807dd0f297c902363205e4e34fee.gif);
+}
+/* background gif, so the cool glittery checker pattern */
+
+h1{   
+color: white; 
+text-shadow: 2px 2px 0px #8f00ff;
+}
+/* changes all text with the h1 (header 1) tag */
+/* in this case, this just edits how your name appears at the top of your profile */
+
+
+.profile .contact .heading, .profile .table-section .heading, .home-actions .heading {
+  background-color: #121212;
+  color:white;
+  text-shadow:1px 1px 0px #8f00ff;
+}
+/* adds cool red text shadow to sub headers, so stuff like Interests and Blurbs and all that */
+/* each comma seperates a different sub heading */
+
+
+.friends:not(#comments) {
+  background:black;  
+}
+/* changes the background color of your friends list */
+.friends .inner .friends-grid .person p{
+	color:white;
+}
+/* changes friends list name color */
+
+.friends .inner .friends-grid .person p:hover{
+	color: #8f00ff;
+}
+/* changes friends list name color on hover */
+
+
+.profile .friends td {
+  background: black;
+} 
+/* makes your profile comments section black and not orange */
+  
+
+nav{
+background-color:#4a235a;
+}
+/* changes the color of the navbar */
+nav ul{
+background:none !important;
+}
+/* overrides light blue navbar color */
+/* if you want it to match the logo and top replace bg color #4a235 with #8f00ff */
+
+.top{
+background:#8f00ff !important;
+}
+/* changes the color of the stuff above the navbar, !important is to override blue color */
+/* i find it looks nicer when this matches the color of .logo, but idk if you add a border to the logo it might look nice? idk lmao */
+
+.profile .table-section .details-table td {
+  background-color:#121212;
+  color: violet;
+  text-shadow: 0px 0px black;
+}
+/* background color and font color for your interests and links tables */
+
+
+.profile .blurbs .heading, .profile .friends .heading, .blog-preview h4 {
+  background-color: #121212;
+  color: white;
+  text-shadow:1px 1px 0px #8f00ff;
+}
+/* changes subheaders (blurbs, latest blog entries, etc) to white text with shadow */
+
+.online { 
+visibility: hidden; 
+} 
+.online img { content: url("http://dl.glitter-graphics.net/pub/3058/3058251t4udpjlpsc.gif"); 
+	animation-name: none; 
+	visibility: visible; 
+	height: 30px; 
+	width: 90px; 
+}
+/* replaces default online icon with pink skull one */
+
+
+
+.friends th, tr, .friends td, th, #comments, main, .comments-table, .friends, .profile-info, .table, .table-section, .contact, .url-info, .mood, .blurbs, .blog-preview, .details, .profile-pic img{
+border: 0px !important;
+padding: 5px;
+outline: none !important;
+}
+/* makes it so tables, comments, url, and contact sections have no border */
+
+
+.friends#comments .inner .comments-table .comment-replies {
+	border: black solid !important;
+}
+/* makes replies not have a white border */
+
+
+.profile-pic img{
+	filter:grayscale(50%);
+	transition-duration:1s;
+}
+.profile-pic img:hover{
+	filter:grayscale(0%);
+	transition-duration:1s;
+}
+/* hover fx for profile pic, optional */
+
+
+footer{
+    background-color: black;
+    color: #8f00ff;
+    padding:5px;
+}
+/* changes spacehey footer colors (the gray box that says brought to you by tibush) */
+
+
+a {
+color:violet;
+}
+/* changes link color */
+
+a:hover{
+color:white;
+}
+/* changes link color from ugly blue to white with pruble shadow */
+
+
+
+/* hey, if ur reading this dont delete this line or i'll be miffed lmfao, it doesn't even affect ur layout at all smfh */
+/* just maybe if this helped,, visit my website OMG 2003 at https://xx2003xx.neocities.org/ */
+/* or don't. im not ur mom */
+/* - XxLie_AbilityxX */
+
+/* anyways, this tag below closes off all that CSS and coding junk. basically, put it at the end so everything actually shows up */
+
+/*(c) Layout created by inky_astrid (https://layouts.spacehey.com/layout?id=82467)*/
+
+<div style="height:150px;width:450px;border:1px solid #ccc;font:16px/26px Georgia, Garamond, Serif;overflow:auto;background-color:white;">
+[Text here scrollbox]
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/symbols/sym-7/sym629.ani), url(https://cur.cursors-4u.net/symbols/sym-7/sym629.png), auto !important;} /* End https://www.cursors-4u.com */
+
+</style>
+
+<!-- (c) Layout created by Lyonid (https://layouts.spacehey.com/layout?id=27619) -->
+
+<div id="profile">
+<h1>🚨 Photosensitivity Warning</h1>
+<p>This profile includes the following visuals that may trigger photosensitive seizures
+</p>
+<ul>
+<li>Flashing Images (Strobe)
+</li><li>Moving Repeated Patterns
+</li><li>Bright Colors (Eye Strain)
+</li><li>Chromatic Aberration (Glitching)
+</li><li>P.S Also Loud Music
+</li></ul>
+<a href="#profile">Gotcha
+</a><a href="https://spacehey.com/home">Back Home</a>
+<img src="https://i1.lensdump.com/i/Tvn63z.jpeg"/>
+
+</div>
+<style> 
+
+:root {
+  --warning-background-color: grey;
+  --warning-text-color: black;
+}
+
+#profile {
+ position: fixed;
+ z-index: 100;
+ top: 0; 
+ left: 0;
+ width: 100vw;
+ height: 100vh;
+ padding: 50px 100px;
+ font-size: 200%;
+ background-color: var(--warning-background-color);
+ color: var(--warning-text-color);
+ overflow-y: scroll;
+ opacity: 1;
+ transition: .2s;
+}
+
+#profile > * {
+ width: 100%;
+ max-width: 700px!important;
+ margin: 20px auto;
+ display: block;
+}
+
+#profile:target {
+ opacity: 0;
+ visibility: hidden;
+}
+
+#profile > a {
+ text-align: center;
+ font-weight: bold;
+}
+
+#profile > ul {
+ padding: 10px 50px;
+ border: 2px dashed var(--warning-text-color);
+}
+
+</style>
+<center><b>──── ⋆⋅☆⋅⋆ ────</b></center>
+<b>They/them, legally neurodivergent, rare aroace spec scenemo here :3</b>
+<a href="https://carnotaurus.carrd.co/"><b>Credits to SOLEIL for the majority of the blinkies</b></a> 
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dfg74du-b5c758bd-49c3-4e0c-a67d-a63b05a16d22.png/v1/fill/w_99,h_55/young_and_disabled_stamp____f2u_by_radiotrophic_dfg74du-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTUiLCJwYXRoIjoiXC9mXC9kYmQwNmU2ZS1iMzEzLTRhY2MtODBkNy0yZjc2MDI2YzgxNzFcL2RmZzc0ZHUtYjVjNzU4YmQtNDljMy00ZTBjLWE2N2QtYTYzYjA1YTE2ZDIyLnBuZyIsIndpZHRoIjoiPD05OSJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.7v45uFY6aOMhVZPr-hNfDDNNA9htUejC5MAlhVEsyAE"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dg5z37q-e5dba998-ed09-421d-a33c-362b9f2da9ef.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGc1ejM3cS1lNWRiYTk5OC1lZDA5LTQyMWQtYTMzYy0zNjJiOWYyZGE5ZWYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.vpD24yuXJQrCMCnBQ3ukza815TtWywBslZ1p5GTFceo"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dg5z419-2a750f1c-90fe-4961-b906-7a3ec66d70d4.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGc1ejQxOS0yYTc1MGYxYy05MGZlLTQ5NjEtYjkwNi03YTNlYzY2ZDcwZDQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.DBzvDlxUn6G7tndN4C5GCInF6nduVvYRVAjsjlIGCbY"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dfg6fm9-7ed0209c-93f2-47f5-b8cc-1e8d9261f340.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGZnNmZtOS03ZWQwMjA5Yy05M2YyLTQ3ZjUtYjhjYy0xZThkOTI2MWYzNDAucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.GtD5j7RsbHeIQTUjcpoQsrI-9DuIpmcr5UNXZNvbUaE"/>
+
+<br/>
+<br/>
+
+
+<!-- (c) Layout created by laksljjdneii3i (https://layouts.spacehey.com/layout?id=82593) -->
+<center>
+<div style="width: 400px; height: 120px; background-color: none ; border-color: #black; border-width: 0px; border-style: dotted; font-size: 11px; overflow: auto;"><p> 
+</p><center>
+<img src="https://blinkiecollecti0n.neocities.org/images/aroacepride.gif"/>
+<img src="https://blinkiecollecti0n.neocities.org/images/nonbinarypride.gif"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dgp3kxa-49247bd2-e8e6-478d-98dc-3d28c13b9721.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGdwM2t4YS00OTI0N2JkMi1lOGU2LTQ3OGQtOThkYy0zZDI4YzEzYjk3MjEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ZfN818CSpOm_ogZNIMoLhDc-HusJkkLzYvGylXgssnY"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dh75naj-65653cd1-77a9-465b-9d35-93188396876d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGg3NW5hai02NTY1M2NkMS03N2E5LTQ2NWItOWQzNS05MzE4ODM5Njg3NmQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0._Byp8JKLUBfv_u60oC5xCsNC-UjYRHGXsDeyjxYNBbI"/>
+
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dfego3f-ccbb71f3-22fd-4a89-9123-bca9a08070eb.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGZlZ28zZi1jY2JiNzFmMy0yMmZkLTRhODktOTEyMy1iY2E5YTA4MDcwZWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.KztyWqZrmP_TWnV_pd1W1ES6EmoaZugxio-dfqAk9YA"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dfy6uod-b8446e0a-aacd-474d-ae37-53cd3bc17828.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGZ5NnVvZC1iODQ0NmUwYS1hYWNkLTQ3NGQtYWUzNy01M2NkM2JjMTc4MjguZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1hJQWVdFb8r7m_TokXtsXnsjtVzaGuzCTas1QBDEWYo"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dfejn1m-fee3e60f-ab21-4e2c-9b48-b5846ef19e66.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGZlam4xbS1mZWUzZTYwZi1hYjIxLTRlMmMtOWI0OC1iNTg0NmVmMTllNjYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.zvpuoOexuI5doS3SCDmukNGsrfK_qIwy8AyRM4A7TrI"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dh8kbhl-513bcfbc-9e75-4825-b196-8df3af8cb0a9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGg4a2JobC01MTNiY2ZiYy05ZTc1LTQ4MjUtYjE5Ni04ZGYzYWY4Y2IwYTkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BRxFMa5LBcSbSVcWJCe16dYPPTbR6T58So4uZ85UMwE"/>
+
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dgovgyz-e3406b61-25c6-4ecd-be07-cb9083b20d81.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGdvdmd5ei1lMzQwNmI2MS0yNWM2LTRlY2QtYmUwNy1jYjkwODNiMjBkODEuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.kuZqQlljD7bB2Hn4tf0xJu1EsQn6V5x7rj7ODkKTF90"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dgyxhpf-df400077-8adb-4427-af1a-7c9e9818783f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGd5eGhwZi1kZjQwMDA3Ny04YWRiLTQ0MjctYWYxYS03YzllOTgxODc4M2YuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.r77MIiYXql23pkKGciH4PFUITHQrXFiI81gdY3BVaeE"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dffpgwo-704e9b45-0258-400f-884f-a3ad407ec66f.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGZmcGd3by03MDRlOWI0NS0wMjU4LTQwMGYtODg0Zi1hM2FkNDA3ZWM2NmYuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-Jr7SiIxrC-yJmLmZ2Bps-EGLYeqrrcso5TnGjLIZI0"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dftk7lb-6a5c24d0-71b4-4fbb-9de0-a739adfdded7.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGZ0azdsYi02YTVjMjRkMC03MWI0LTRmYmItOWRlMC1hNzM5YWRmZGRlZDcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6x29ajKi1UhJLS9srv399ACHX83fhwa7axcz0qmXGYw"/>
+
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dfel8pb-8f418213-88e4-414c-963c-142ffdce05f9.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGZlbDhwYi04ZjQxODIxMy04OGU0LTQxNGMtOTYzYy0xNDJmZmRjZTA1ZjkuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.G1wlGQN90FHsELfcVKIhghXj3DGaIRs_XhXuI8p1ics"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dhvl3nq-119f2a5a-ccd7-4273-8aac-8be121b9b935.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGh2bDNucS0xMTlmMmE1YS1jY2Q3LTQyNzMtOGFhYy04YmUxMjFiOWI5MzUuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ERtaOkIPZRVW7KK6BcgQ5cs9OTWj3sHEsy-3Sw7Ewl4"/>
+<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/dbd06e6e-b313-4acc-80d7-2f76026c8171/dfsolj8-4fdbf338-ef19-48bd-80c0-b2b895be0aab.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2RiZDA2ZTZlLWIzMTMtNGFjYy04MGQ3LTJmNzYwMjZjODE3MVwvZGZzb2xqOC00ZmRiZjMzOC1lZjE5LTQ4YmQtODBjMC1iMmI4OTViZTBhYWIuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.op5fPiRscjcF8zo7srSh7bpcVFfKUh5sKQF6LlnnbgE"/>
+
+</center>
+</div>
+</center>
+
+<!-- (c) Layout created by r.o.u.s. (https://layouts.spacehey.com/layout?id=24567) -->
+
+<details><summary style="font-size: 13px;" class="mb8"><u>Click Here For More Stuffz</u> </summary>
+
+<a href="https://www.theotaku.com/quizzes/view/2970/which_madoka_magical_girl_are_you%3F"><img src="http://www.theotaku.com/guru_results/2970_Homura.jpg" alt="Which Madoka Magical Girl Are You?"/><br/></a><a href="https://www.theotaku.com/quizzes/view/2970/which_madoka_magical_girl_are_you%3F">Which Madoka Magical Girl Are You?</a>
+
+<div id="music">
+<iframe width="0" height="0" src="https://www.youtube.com/embed/5whfnP4Vd3s?//?&;amp;;autoplay=1&;loop=1&;controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" loading="lazy">
+
+</iframe>
+</div>
+<div class="center">
+<a href="https://www.pokemon-adoption.de">
+<img src="https://www.yatta-tempel.de/animierte/570gino.gif" style="width: 67px; height: 61px;" alt="Zoe"/></a><br/>
+<b>Name:</b> Zoe<br/>
+Adopt one yourself! @<a href="https://www.pokemon-adoption.de">Pokémon Orphanage</a>
+</div>
+</details>
